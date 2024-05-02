@@ -1,0 +1,90 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main content area styling */
+main {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* Styles for each div in main for clarity */
+main > div {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Header within main area that isn't semantically correct */
+main > div:first-child {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Style for images */
+img {
+  width: 40%;
+}
+
+/* Styling for paragraphs */
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Styles for headings */
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+/* Link styling */
+a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #218838;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+}
+
+/* Media query for small screens */
+@media (max-width: 600px) {
+    body, header, main, footer {
+        padding: 10px;
+    }
+
+    main > div {
+        padding: 10px;
+    }
+}
+
